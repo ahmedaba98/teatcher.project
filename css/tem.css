@@ -363,6 +363,7 @@ footer {
 @media (max-width:1300px) {
     * {
         font-size: 85%;
+        scroll-behavior: smooth;
     }
 }
 
