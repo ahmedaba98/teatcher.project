@@ -360,20 +360,60 @@ footer {
 
 /* RESPONSEV */
 
-@media (max-width: 320px) {
+@media (max-width:1300px) {
+    * {
+        font-size: 85%;
+    }
+}
+
+@media (max-width:1170px) {
+    * {
+        font-size: 85%;
+    }
+}
+
+@media (max-width:1000px) {
+    * {
+        font-size: 85%;
+    }
+    .hero-section {
+        align-items: center;
+        padding: 2rem 0;
+        width: 50%;
+        height: 70vh;
+    }
+    .hero-section .cssbuttons-io-button {
+        /* padding: 0; */
+        align-items: center;
+        margin-left: 9rem;
+        /* display: none; */
+    }
     nav {
         display: none;
     }
-    .hero-section {
-        max-width: 320px;
-    }
-    section.feat .feat-section {
-        max-width: 320px;
-    }
-    .footer-section {
-        max-width: 320px;
+    .feat-section .features {
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .feat-section .features .feature {
-        flex-direction: row;
+        align-items: center;
+    }
+    .features .feature h3 {
+        align-items: center;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+    section.conect {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:600px) {
+    nav .nav-item {
+        display: none;
+    }
+    .hero-section .content h1 {
+        font-size: 2rem;
     }
 }
