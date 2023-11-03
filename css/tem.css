@@ -360,10 +360,16 @@ footer {
 /* RESPONSEV */
 
 @media (max-width: 320px) {
-    body {
-        width: 80%;
-    }
     nav {
         display: none;
+    }
+    .hero-section {
+        max-width: 320px;
+    }
+    section.feat .feat-section {
+        max-width: 320px;
+    }
+    .footer-section {
+        max-width: 320px;
     }
 }
