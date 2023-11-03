@@ -12,6 +12,7 @@
 
 body {
     font-family: "Tajawal", sans-serif;
+    display: grid;
 }
 
 nav {
@@ -371,5 +372,8 @@ footer {
     }
     .footer-section {
         max-width: 320px;
+    }
+    .feat-section .features .feature {
+        flex-direction: row;
     }
 }
